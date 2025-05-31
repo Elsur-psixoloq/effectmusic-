@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/frozenoffical/effectmusic-",
+    "https://github.com/Elsur-psixoloq/effectmusic-",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/leg_end010")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/effectbots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AnonimSair")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/NergizSupportGrup")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -73,7 +73,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @BRANDEDSTRINGSESSION_BOT on Telegram
-STRING1 = getenv("STRING_SESSION",  None)
+STRING1 = getenv("AgEtqVYAGz638XNJqcWbN-ucFRrNL7DVYs63aqq-Q8ub8bLhjrZrIrggI566Zcg0ksoiJ3OVKlaBhzUn17t6dYWvpYjtSMB7xa9Atf0vTuMKj5n4uMjakJIkgh7cNubq4I5llrf2PeFxwnVyDu1PnZP0j0wGoHl1G8FPY6uV2mAVTtPV8uXAxw4NjASUfLbZ-o6qA6fuf5C738gtl6dgRQU3PNZCmeIV9ZxeQHdjR_ZJU5v_qATWE12bt9LhUXEUruqR7cvu8Juh4AXyHbBe_veLWNtzOisXfzUmpfX4Fs-dH5Ykk0FGnQSkQ6UkWylUdPYtj7wWHZfnIGztSC26IWUaLoFv_wAAAAGC_6I6AA",  None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
